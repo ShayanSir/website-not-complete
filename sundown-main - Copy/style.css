@@ -153,6 +153,90 @@ nav h3 {
     top: 20px;
 }
 
+@media screen and (max-width: 1200px) {
+
+    #page1 {
+        min-height: 60vh;
+        width: 100%;
+        /* background-color: #EFEAE3; */
+        /* background: linear-gradient(rgb(255, 255, 255), rgb(255, 0, 0), rgb(202, 6, 6)); */
+        position: relative;
+        padding: 0 2vw;
+    }
+
+    #center {
+        height: 30vh;
+        width: 100%;
+        /* background-color: orange; */
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid #0000003c;
+        padding-bottom: 1.5vw;
+        top: 20px;
+    }
+
+    #page2 {
+        min-height: 30vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        padding: 8vw 0;
+        position: relative;
+    }
+
+    #page2-bottom {
+        height: 50vh;
+        width: 100%;
+        /* background-color: aliceblue; */
+        padding: 4.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 9;
+    }
+}
+
+/* @media screen and (max-width: 900px) {
+
+    #page1 {
+        min-height: 60vh;
+        width: 100%;
+        position: relative;
+        padding: 0 2vw;
+    }
+
+    #center {
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        border-bottom: 1px solid #0000003c;
+        padding-bottom: 1.5vw;
+        top: 20px;
+    }
+
+    #page2 {
+        min-height: 30vh;
+        width: 100%;
+        background-color: #EFEAE3;
+        padding: 8vw 0;
+        position: relative;
+    }
+
+    #page2-bottom {
+        height: 30vh;
+        width: 100%;
+        padding: 4.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        z-index: 9;
+    }
+} */
+
 #left h3 {
     width: 25vw;
     font-size: 1.8vw;
@@ -524,7 +608,7 @@ nav h3 {
 @media (max-width:600px) {
 
     #page1 {
-        min-height: 100vh;
+        min-height: 80vh;
         width: 100vw;
         padding: 0 0vw;
     }
@@ -576,7 +660,7 @@ nav h3 {
     }
 
     #center h1 {
-        font-size: 13vw;
+        font-size: 8vw;
         text-align: right;
         line-height: 15vw;
     }
@@ -866,6 +950,20 @@ nav h3 {
         visibility: hidden;
     }
 }
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .splash-heading {
+        font-size: 8vw; /* Larger font size for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .splash-heading {
+        font-size: 10vw; /* Even larger font size for very small screens */
+    }
+}
+
 
 /* footer  */
 .mainbg{
